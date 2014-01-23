@@ -14,6 +14,7 @@ class Game
   end
 
   def create_ai_number
+    #Find better way here
     @number = [*1..9].shuffle.slice(0, 4)
   end
 
